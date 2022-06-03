@@ -355,8 +355,59 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media screen and (min-width: 768px) {
+
+/*Tablet styles here*/
+
+header {
+ justify-content: space-around; 
+ padding: 33px 0;
+}
+
+header .content-wrapper {
+  justify-content: space-between;
+}
+
+header nav ul {
+  justify-content: space-between;
+}
+
+aside .content-wrapper {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between; 
+  flex-flow: row wrap;
+}
+
+features article {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 50%;
+}
+
+features .content-wrapper {
+  width: 90%;
+}
+
+.reviews article {
+  display: flex;
+  justify-content: ;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: ;
+  align-items: ;
+}
+    
+}
+    
+@media screen and (min-width: 1200px) {
+    
+/*Desktop styles here*/
+    
 }
 
 @media print,
